@@ -26,7 +26,7 @@ function rollTheDice() {
 
     var randomPhase = Math.floor(Math.random() * 6) + 1;
     dicerollSound.play()
-    var dice1 = "images/" + "dice" + randomPhase + ".jpg";  // yeha par hum log jo dice me sare images hai usko select kar rahe hai
+    var dice1 = "images/" + "DICE" + randomPhase + ".jpg";  // yeha par hum log jo dice me sare images hai usko select kar rahe hai
     var img1 = document.querySelector(".img1");
     img1.setAttribute("src", dice1);
 
@@ -35,7 +35,7 @@ function rollTheDice() {
 
     var randomPhase = Math.floor(Math.random() * 6) + 1;
     dicerollSound.play()
-    var dice2 = "images/" + "dice" + randomPhase + ".jpg";  // yeha par hum log jo dice me sare images hai usko select kar rahe hai
+    var dice2 = "images/" + "DICE" + randomPhase + ".jpg";  // yeha par hum log jo dice me sare images hai usko select kar rahe hai
     var img1 = document.querySelector(".img2");
     img1.setAttribute("src", dice2);
 
